@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Confecciones Ramos</title>
-        <!-- START CSS -->
-        <!-- CSS INCLUDE -->
-<?php echo $this->tag->stylesheetLink('css/bootstrap.min.css'); ?>
-<?php echo $this->tag->stylesheetLink('css/flexslider.css'); ?>
-<?php echo $this->tag->stylesheetLink('css/prettyPhoto.css'); ?>
-<?php echo $this->tag->stylesheetLink('css/animate.css'); ?>
-<?php echo $this->tag->stylesheetLink('css/owl.carousel.css'); ?>
-<?php echo $this->tag->stylesheetLink('css/style.css'); ?>
-
-<!-- FONTS -->
-<?php echo $this->tag->stylesheetLink('css/font.css'); ?>
-<?php echo $this->tag->stylesheetLink('css/font-awesome.css'); ?>
-
-
-<!-- EOF CSS INCLUDE -->
-
-        <!-- END CSS -->
-        <!-- START SCRIPTS -->
-        <!-- START SCRIPTS -->
+<!-- START SCRIPTS -->
     <!-- START PLUGINS -->
 
     <?php echo $this->tag->javascriptInclude('js/jquery.min.js'); ?>
@@ -73,12 +47,3 @@
 
 
 <!-- END SCRIPTS -->
-
-        <!-- END SCRIPTS -->
-    </head>
-    <body>
-        <div class="container">
-            <?php echo $this->getContent(); ?>
-        </div>
-    </body>
-</html>
