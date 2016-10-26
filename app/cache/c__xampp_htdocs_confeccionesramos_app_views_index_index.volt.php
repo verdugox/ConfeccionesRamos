@@ -1,6 +1,6 @@
 
 <!-- PRELOADER -->
-<img id="preloader" src="img/preloader.gif" alt="" />
+<?php echo $this->tag->image(array('img/preloader.gif', 'id' => 'preloader', 'alt' => '')); ?>
 <!-- //PRELOADER -->
 <div class="preloader_hide">
 
@@ -94,9 +94,9 @@
 			</div>
 			<div id="carousel">
 				<ul class="slides">
-					<li><img src="img/slider/slide1_bg.jpg" alt="" /></li>
-					<li><img src="img/slider/slide2_bg.jpg" alt="" /></li>
-					<li><img src="img/slider/slide3_bg.jpg" alt="" /></li>
+					<li><?php echo $this->tag->image(array('img/slider/slide1_bg.jpg', 'alt' => '')); ?></li>
+					<li><?php echo $this->tag->image(array('img/slider/slide2_bg.jpg', 'alt' => '')); ?></li>
+					<li><?php echo $this->tag->image(array('img/slider/slide3_bg.jpg', 'alt' => '')); ?></li>
 				</ul>
 			</div><!-- //TOP SLIDER -->
 		</section><!-- //HOME -->
@@ -203,7 +203,7 @@
 						</div>
 
 						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
-							<img class="ipad_img1" src="img/img1.png" alt="" />
+							<?php echo $this->tag->image(array('img/img1.png', 'class' => 'ipad_img1', 'alt' => '')); ?>
 						</div>
 					</div><!-- //ROW -->
 				</div><!-- //CONTAINER -->
@@ -228,7 +228,7 @@
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
-								<img src="img/works/1.jpg" alt="" />
+								<?php echo $this->tag->image(array('img/works/1.jpg', 'alt' => '')); ?>
 								<a class="zoom" href="img/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
 							</div>
 							<div class="work_description">
@@ -244,7 +244,7 @@
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
-								<img src="img/works/2.jpg" alt="" />
+								<?php echo $this->tag->image(array('img/works/2.jpg', 'alt' => '')); ?>
 								<a class="zoom" href="img/works/2.jpg" rel="prettyPhoto[portfolio1]" ></a>
 							</div>
 							<div class="work_description">
@@ -260,7 +260,7 @@
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
-								<img src="img/works/3.jpg" alt="" />
+								<?php echo $this->tag->image(array('img/works/3.jpg', 'alt' => '')); ?>
 								<a class="zoom" href="img/works/3.jpg" rel="prettyPhoto[portfolio1]" ></a>
 							</div>
 							<div class="work_description">
@@ -276,7 +276,7 @@
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
-								<img src="img/works/4.jpg" alt="" />
+								<?php echo $this->tag->image(array('img/works/4.jpg', 'alt' => '')); ?>
 								<a class="zoom" href="img/works/4.jpg" rel="prettyPhoto[portfolio1]" ></a>
 							</div>
 							<div class="work_description">
@@ -292,7 +292,7 @@
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
-								<img src="img/works/5.jpg" alt="" />
+								<?php echo $this->tag->image(array('img/works/5.jpg', 'alt' => '')); ?>
 								<a class="zoom" href="img/works/5.jpg" rel="prettyPhoto[portfolio1]" ></a>
 							</div>
 							<div class="work_description">
@@ -308,7 +308,7 @@
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
-								<img src="img/works/6.jpg" alt="" />
+								<?php echo $this->tag->image(array('img/works/6.jpg', 'alt' => '')); ?>
 								<a class="zoom" href="img/works/6.jpg" rel="prettyPhoto[portfolio1]" ></a>
 							</div>
 							<div class="work_description">
@@ -324,7 +324,7 @@
 					<div class="item">
 						<div class="work_item">
 							<div class="work_img">
-								<img src="img/works/7.jpg" alt="" />
+							  <?php echo $this->tag->image(array('img/works/7.jpg', 'alt' => '')); ?>
 								<a class="zoom" href="img/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
 							</div>
 							<div class="work_description">
@@ -348,22 +348,22 @@
 					<!-- ROW -->
 					<div class="row">
 						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="img/clients/1.jpg" alt="" />
+							<?php echo $this->tag->image(array('img/clients/1.jpg', 'alt' => '')); ?>
 						</div>
 						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="img/clients/2.jpg" alt="" />
+						  <?php echo $this->tag->image(array('img/clients/2.jpg', 'alt' => '')); ?>
 						</div>
 						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="img/clients/3.jpg" alt="" />
+						  <?php echo $this->tag->image(array('img/clients/3.jpg', 'alt' => '')); ?>
 						</div>
 						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="img/clients/4.jpg" alt="" />
+							<?php echo $this->tag->image(array('img/clients/4.jpg', 'alt' => '')); ?>
 						</div>
 						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="img/clients/5.jpg" alt="" />
+						  <?php echo $this->tag->image(array('img/clients/5.jpg', 'alt' => '')); ?>
 						</div>
 						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-							<img src="img/clients/6.jpg" alt="" />
+						  <?php echo $this->tag->image(array('img/clients/6.jpg', 'alt' => '')); ?>
 						</div>
 					</div><!-- //ROW -->
 				</div><!-- CONTAINER -->
@@ -388,7 +388,7 @@
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="img/team/1.jpg" alt="" />
+									<?php echo $this->tag->image(array('img/team/1.jpg', 'alt' => '')); ?>
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
@@ -407,7 +407,7 @@
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="img/team/2.jpg" alt="" />
+								  <?php echo $this->tag->image(array('img/team/2.jpg', 'alt' => '')); ?>
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
@@ -427,7 +427,7 @@
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="img/team/3.jpg" alt="" />
+								  <?php echo $this->tag->image(array('img/team/3.jpg', 'alt' => '')); ?>
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
@@ -446,7 +446,7 @@
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="img/team/4.jpg" alt="" />
+									<?php echo $this->tag->image(array('img/team/4.jpg', 'alt' => '')); ?>
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
@@ -465,7 +465,7 @@
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="img/team/5.jpg" alt="" />
+									<?php echo $this->tag->image(array('img/team/5.jpg', 'alt' => '')); ?>
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
@@ -485,7 +485,7 @@
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="img/team/6.jpg" alt="" />
+									<?php echo $this->tag->image(array('img/team/6.jpg', 'alt' => '')); ?>
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
@@ -504,7 +504,7 @@
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="img/team/7.jpg" alt="" />
+								  <?php echo $this->tag->image(array('img/team/7.jpg', 'alt' => '')); ?>
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
@@ -523,7 +523,7 @@
 						<div class="item">
 							<div class="crewman_item">
 								<div class="crewman">
-									<img src="img/team/8.jpg" alt="" />
+								  <?php echo $this->tag->image(array('img/team/8.jpg', 'alt' => '')); ?>
 								</div>
 								<div class="crewman_descr center">
 									<div class="crewman_descr_cont">
@@ -582,7 +582,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
 						<div class="post_item">
 							<div class="post_item_img">
-								<img src="img/blog/1.jpg" alt="" />
+								<?php echo $this->tag->image(array('img/blog/1.jpg', 'alt' => '')); ?>
 								<a class="link" href="blog-post.html" ></a>
 							</div>
 							<div class="post_item_content">
@@ -598,7 +598,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
 						<div class="post_item">
 							<div class="post_item_img">
-								<img src="img/blog/2.jpg" alt="" />
+									<?php echo $this->tag->image(array('img/blog/2.jpg', 'alt' => '')); ?>
 								<a class="link" href="blog-post.html"></a>
 							</div>
 							<div class="post_item_content">
@@ -614,7 +614,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
 						<div class="post_item">
 							<div class="post_item_img">
-								<img src="img/blog/3.jpg" alt="" />
+									<?php echo $this->tag->image(array('img/blog/3.jpg', 'alt' => '')); ?>
 								<a class="link" href="blog-post.html"></a>
 							</div>
 							<div class="post_item_content">
@@ -649,7 +649,7 @@
 					<h4><b>Featured</b> posts</h4>
 					<div class="recent_posts_small clearfix">
 						<div class="post_item_img_small">
-							<img src="img/blog/1.jpg" alt="" />
+								<?php echo $this->tag->image(array('img/blog/1.jpg', 'alt' => '')); ?>
 						</div>
 						<div class="post_item_content_small">
 							<a class="title" href="blog.html" >As we have developed a unique layout template</a>
@@ -660,7 +660,7 @@
 					</div>
 					<div class="recent_posts_small clearfix">
 						<div class="post_item_img_small">
-							<img src="img/blog/2.jpg" alt="" />
+						  <?php echo $this->tag->image(array('img/blog/2.jpg', 'alt' => '')); ?>
 						</div>
 						<div class="post_item_content_small">
 							<a class="title" href="blog.html" >How much is to develop a design for the game?</a>
@@ -670,8 +670,8 @@
 						</div>
 					</div>
 					<div class="recent_posts_small clearfix">
-						<div class="post_item_img_small">
-							<img src="img/blog/3.jpg" alt="" />
+						<div class="post_item_img_small
+							<?php echo $this->tag->image(array('img/blog/3.jpg', 'alt' => '')); ?>
 						</div>
 						<div class="post_item_content_small">
 							<a class="title" href="blog.html" >How to pump designer</a>

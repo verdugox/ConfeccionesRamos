@@ -9,6 +9,4 @@
 <!-- FONTS -->
 <?php echo $this->tag->stylesheetLink('css/font.css'); ?>
 <?php echo $this->tag->stylesheetLink('css/font-awesome.css'); ?>
-
-
 <!-- EOF CSS INCLUDE -->

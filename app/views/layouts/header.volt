@@ -9,6 +9,4 @@
 <!-- FONTS -->
 {{ stylesheet_link("css/font.css") }}
 {{ stylesheet_link("css/font-awesome.css") }}
-
-
 <!-- EOF CSS INCLUDE -->
